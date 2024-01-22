@@ -1,0 +1,26 @@
+/* ContactRow.css */
+
+tr {
+    background-color: #fff; /* White background for each row */
+    transition: background-color 0.3s ease;
+  }
+  
+  tr:hover {
+    background-color: #f2f2f2; /* Light gray background on hover */
+  }
+  
+  td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd; /* Light gray border between rows */
+  }
+  
+  input[type="checkbox"] {
+    cursor: pointer;
+  }
+  
+  /* Styling for selected rows */
+  tr.selected {
+    background-color: #3498db; /* Blue background for selected row */
+    color: #fff; /* White text color for selected row */
+  }
+  

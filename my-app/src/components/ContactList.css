@@ -1,0 +1,70 @@
+/* ContactList.css */
+
+div {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  tbody tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  div.pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  div.pagination button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  div.pagination button:hover {
+    background-color: #2980b9;
+  }
+  
+  div.error {
+    color: red;
+  }
+  
+  div.success {
+    color: green;
+  }
+  
